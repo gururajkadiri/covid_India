@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 
 start_day=25
-end_day=66
+end_day=68
 
 dfs=populate_dfs()    
 

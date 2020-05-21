@@ -20,7 +20,7 @@ lines = ["-","--","-.",":"]
 linecycler = cycle(lines)
 colorcycler=cycle(clrs)
 start_day=23
-end_day=66
+end_day=68
 dfs=populate_dfs()    
 dts=getDates(start_day,end_day)
 
