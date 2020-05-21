@@ -7,8 +7,6 @@ Created on Fri May  8 21:12:21 2020
 """
 
 from impfuncs import *
-states=np.array(["India",'Tamilnadu', 'Maharastra', 'Kerala',
-     'Delhi', 'Telangana',"JK",'Gujarat',"Bihar", 'Rajasthan','Andhra Pradesh',"West Bengal","Punjab","Uttar Pradesh","Karnataka",'Madhya Pradesh'])
 states=np.array(["India",'Maharastra', "Delhi",
      'Gujarat','Rajasthan',"West Bengal",'Madhya Pradesh'])
 
