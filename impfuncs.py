@@ -18,7 +18,7 @@ import itertools
 
 import urllib.request
 url = 'https://api.covid19india.org/csv/latest/state_wise_daily.csv'
-#urllib.request.urlretrieve(url,"state_wise_daily.csv")
+urllib.request.urlretrieve(url,"state_wise_daily.csv")
 
 
 states=np.array(["India",'Tamilnadu', 'Maharastra', 'Kerala',
