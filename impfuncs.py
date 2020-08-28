@@ -25,7 +25,11 @@ states=np.array(["India",'Tamilnadu', 'Maharastra', 'Kerala',
      'Delhi', 'Telangana',"JK",'Gujarat',"Bihar", 'Rajasthan','Andhra Pradesh',"West Bengal","Punjab","Uttar Pradesh","Karnataka",'Madhya Pradesh'])
 states=np.array(["India",'Maharastra', 
      'Tamilnadu','Rajasthan',"Telangana",'Madhya Pradesh'])
-
+     
+def getStateNames():
+	states=np.array(["India",'Tamilnadu', 'Maharastra', 'Kerala',
+     'Delhi', 'Telangana',"JK",'Gujarat',"Bihar", 'Rajasthan','Andhra Pradesh',"West Bengal","Punjab","Uttar Pradesh","Karnataka",'Madhya Pradesh'])
+	return(states)
 clrs=['#008000','#0000FF', "#FFFF00", '#FF0000', '#D2691E',
      '#00563f','#C0C0C0','#aafbff', '#9400D3','#306998','#f4c430','#FFC0CB',"#ACDDDE","#FF4500","#FFFA8D"]
 
